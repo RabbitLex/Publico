@@ -17,6 +17,10 @@ public class FrmPrincipal extends javax.swing.JFrame {
     JFileChooser seleccionar=new JFileChooser();
     File archivo;
     FileOutputStream salida;
+
+    public imprimirMiNombre{
+        System.out.println("Jorge Alejandro Zabaleta Mazariegos")
+    }
    
     public FrmPrincipal() {
         initComponents();
