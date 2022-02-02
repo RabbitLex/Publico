@@ -23,6 +23,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
     public void imprimirMiNombre(){
         System.out.println("Jorge Alejandro Zabaleta Mazariegos");
         System.out.println("Estuve aquí");
+        System.out.println("Estuve aquí");
     }
    
     public FrmPrincipal() {
