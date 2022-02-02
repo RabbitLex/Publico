@@ -25,6 +25,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         System.out.println("Estuve aquí");
         System.out.println("Estuve aquí");
         System.out.println("Estuve aquí");
+        System.out.println("Estuve aquí");
     }
    
     public FrmPrincipal() {
