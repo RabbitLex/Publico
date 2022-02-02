@@ -18,7 +18,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
     File archivo;
     FileOutputStream salida;
 
-    public imprimirMiNombre{
+    public void imprimirMiNombre(){
         System.out.println("Jorge Alejandro Zabaleta Mazariegos")
     }
    
