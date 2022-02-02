@@ -10,6 +10,8 @@ import java.nio.file.Files;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java_cup.runtime.Symbol;
+
+import javax.sound.sampled.SourceDataLine;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 
@@ -17,6 +19,14 @@ public class FrmPrincipal extends javax.swing.JFrame {
     JFileChooser seleccionar=new JFileChooser();
     File archivo;
     FileOutputStream salida;
+
+    public void imprimirMiNombre(){
+        System.out.println("Jorge Alejandro Zabaleta Mazariegos");
+        System.out.println("Estuve aquí");
+        System.out.println("Estuve aquí");
+        System.out.println("Estuve aquí");
+        System.out.println("Estuve aquí");
+    }
    
     public FrmPrincipal() {
         initComponents();
